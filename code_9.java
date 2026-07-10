@@ -13,9 +13,9 @@ public class code_9 {
         for(int i=1;i<=Math.min(X,Y);i++){
             if(X%i==0 && Y%i==0){
                 GCD = i;
-                LCM = i*i;
             }
         }
+        LCM = (X*Y)/GCD;
         System.out.println(GCD);
         System.out.println(LCM);
     }    
