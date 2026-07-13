@@ -12,8 +12,10 @@ public class code_12 {
 
         if(N<1){
             System.out.print("Invalid to print");
+            return;
         } else if(N==1){
             System.out.print(num1);
+            return;
         } else{
             System.out.print(num1 +" "+ num2 +" ");
         }
